@@ -1,7 +1,7 @@
 from datetime import datetime
 import time
 
-f = open('log.txt', 'w')
+f = open('log.txt', 'a')
 
 for i in range(0,10):
     print(datetime.now().strftime('%Y-%m-%d %H:%M:%S - '),i)
