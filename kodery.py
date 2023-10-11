@@ -26,3 +26,4 @@ print(format(x, '6.1f'))
 print(format(y, '6.1f'))
 
 #wypełniacz
+#print(format(y, '<*10.2f'))
