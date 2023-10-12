@@ -25,3 +25,6 @@ for i in x:
 
 for miasto in root.iter('name'):
     print(miasto.text)
+
+for temp_c in root.iter('temp_c'):
+    print(temp_c.text)
