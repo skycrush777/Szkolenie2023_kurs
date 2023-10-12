@@ -9,5 +9,5 @@ print(lokalizacja)
 print(temp_C)
 with open("pogoda.txt",'a', encoding='utf-8')as f:
     f.write(f'\nW mieście {lokalizacja}, jest {temp_C} stopni C°')
-
 f.close()
+input('Wciśnij Enter by zakończyć program')
